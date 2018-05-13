@@ -1,0 +1,49 @@
+html, body {
+    margin:0;
+    height:100%;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(255, 102, 0), rgb(255, 102, 0), darkblue 50%,darkblue);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.timer {
+	color:white;
+}
+
+.question  {
+	color:white;
+}
+
+button {
+	width: 35%;
+	height: 5rem;
+	margin: 0 35%;
+	float: left;
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: blue;
+	color: white;
+}
+
+.answers div {
+	margin: 0 auto;
+}
+
+img {
+	height: 500px;
+    width: 650px;
+    margin-left: 20rem;
+    padding: 1rem;
+}
+
+h1, h2, h3, .question {
+	text-align: center;
+}
